@@ -1,4 +1,4 @@
-String sampleDomains = '''[
+'[
   {
     "name": "example.com",
     "expiry": "2025-10-01",
@@ -223,4 +223,4 @@ String sampleDomains = '''[
       { "type": "CNAME", "host": "www", "value": "mentor.page.link" }
     ]
   }
-]''';
+]'

@@ -1,5 +1,4 @@
-String sampleEmailDomains2 = '[]';
-String sampleEmailDomains = '''[
+'[
   {
     "domainName": "greenhost.com",
     "packageName": "Basic",
@@ -70,4 +69,4 @@ String sampleEmailDomains = '''[
     "status": "Active",
     "autoRenewal": true
   }
-]''';
+]'
