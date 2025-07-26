@@ -1,4 +1,4 @@
-'[
+[
   {
     "domainName": "greenhost.com",
     "packageName": "Basic",
@@ -69,4 +69,4 @@
     "status": "Active",
     "autoRenewal": true
   }
-]'
+]
