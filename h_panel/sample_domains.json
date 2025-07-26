@@ -1,4 +1,4 @@
-'[
+[
   {
     "name": "example.com",
     "expiry": "2025-10-01",
@@ -223,4 +223,4 @@
       { "type": "CNAME", "host": "www", "value": "mentor.page.link" }
     ]
   }
-]'
+]
