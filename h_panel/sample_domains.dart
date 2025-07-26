@@ -1,0 +1,226 @@
+String sampleDomains = '''[
+  {
+    "name": "example.com",
+    "expiry": "2025-10-01",
+    "status": "active",
+    "created_on": "2020-10-01",
+    "auto_renew": true,
+    "name_servers": ["ns1.exampledns.com", "ns2.exampledns.com"],
+    "dns_records": [
+      { "type": "A", "host": "@", "value": "192.0.2.1" },
+      { "type": "MX", "host": "@", "value": "mail.example.com", "priority": 10 },
+      { "type": "TXT", "host": "@", "value": "v=spf1 include:_spf.google.com ~all" }
+    ]
+  },
+  {
+    "name": "myblog.net",
+    "expiry": "2025-03-15",
+    "status": "expiring_soon",
+    "created_on": "2021-03-15",
+    "auto_renew": false,
+    "name_servers": ["ns1.netdns.com", "ns2.netdns.com"],
+    "dns_records": [
+      { "type": "A", "host": "www", "value": "203.0.113.5" },
+      { "type": "CNAME", "host": "blog", "value": "www.myblog.net" }
+    ]
+  },
+  {
+    "name": "startup.io",
+    "expiry": "2026-01-20",
+    "status": "active",
+    "created_on": "2023-01-20",
+    "auto_renew": true,
+    "name_servers": ["ns1.iohost.net", "ns2.iohost.net"],
+    "dns_records": [
+      { "type": "A", "host": "@", "value": "198.51.100.12" },
+      { "type": "TXT", "host": "_dmarc", "value": "v=DMARC1; p=none" }
+    ]
+  },
+  {
+    "name": "portfolio.dev",
+    "expiry": "2024-12-05",
+    "status": "expired",
+    "created_on": "2019-12-05",
+    "auto_renew": false,
+    "name_servers": ["ns1.devhost.com", "ns2.devhost.com"],
+    "dns_records": [
+      { "type": "A", "host": "@", "value": "203.0.113.10" }
+    ]
+  },
+  {
+    "name": "company.africa",
+    "expiry": "2025-07-30",
+    "status": "active",
+    "created_on": "2022-07-30",
+    "auto_renew": true,
+    "name_servers": ["ns1.afdns.org", "ns2.afdns.org"],
+    "dns_records": [
+      { "type": "A", "host": "@", "value": "192.0.2.55" },
+      { "type": "MX", "host": "@", "value": "mail.company.africa", "priority": 5 }
+    ]
+  },
+  {
+    "name": "techhub.io",
+    "expiry": "2025-11-11",
+    "status": "active",
+    "created_on": "2021-11-11",
+    "auto_renew": true,
+    "name_servers": ["ns1.techdns.com", "ns2.techdns.com"],
+    "dns_records": [
+      { "type": "A", "host": "@", "value": "198.51.100.23" }
+    ]
+  },
+  {
+    "name": "designlab.co",
+    "expiry": "2026-04-20",
+    "status": "active",
+    "created_on": "2020-04-20",
+    "auto_renew": false,
+    "name_servers": ["ns1.colab.co", "ns2.colab.co"],
+    "dns_records": [
+      { "type": "CNAME", "host": "www", "value": "designlab.github.io" }
+    ]
+  },
+  {
+    "name": "shopnow.store",
+    "expiry": "2025-08-01",
+    "status": "expiring_soon",
+    "created_on": "2023-08-01",
+    "auto_renew": true,
+    "name_servers": ["ns1.shopdns.com", "ns2.shopdns.com"],
+    "dns_records": [
+      { "type": "A", "host": "@", "value": "192.0.2.80" },
+      { "type": "TXT", "host": "@", "value": "google-site-verification=abc123" }
+    ]
+  },
+  {
+    "name": "eco.world",
+    "expiry": "2025-09-12",
+    "status": "active",
+    "created_on": "2021-09-12",
+    "auto_renew": false,
+    "name_servers": ["ns1.earthdns.org", "ns2.earthdns.org"],
+    "dns_records": [
+      { "type": "A", "host": "@", "value": "203.0.113.98" }
+    ]
+  },
+  {
+    "name": "devs.zone",
+    "expiry": "2026-02-01",
+    "status": "active",
+    "created_on": "2022-02-01",
+    "auto_renew": true,
+    "name_servers": ["ns1.devzone.com", "ns2.devzone.com"],
+    "dns_records": [
+      { "type": "A", "host": "@", "value": "198.51.100.45" },
+      { "type": "TXT", "host": "@", "value": "v=spf1 +mx -all" }
+    ]
+  },
+  {
+    "name": "codeplus.app",
+    "expiry": "2025-05-05",
+    "status": "active",
+    "created_on": "2020-05-05",
+    "auto_renew": false,
+    "name_servers": ["ns1.codehost.app", "ns2.codehost.app"],
+    "dns_records": [
+      { "type": "CNAME", "host": "www", "value": "hosted.page.link" }
+    ]
+  },
+  {
+    "name": "travel.africa",
+    "expiry": "2024-10-10",
+    "status": "expired",
+    "created_on": "2018-10-10",
+    "auto_renew": false,
+    "name_servers": ["ns1.africatravel.com", "ns2.africatravel.com"],
+    "dns_records": []
+  },
+  {
+    "name": "musiclab.fm",
+    "expiry": "2025-12-12",
+    "status": "active",
+    "created_on": "2021-12-12",
+    "auto_renew": true,
+    "name_servers": ["ns1.musicdns.fm", "ns2.musicdns.fm"],
+    "dns_records": [
+      { "type": "A", "host": "@", "value": "203.0.113.120" },
+      { "type": "MX", "host": "@", "value": "mail.musiclab.fm", "priority": 10 }
+    ]
+  },
+  {
+    "name": "build.dev",
+    "expiry": "2025-06-06",
+    "status": "active",
+    "created_on": "2020-06-06",
+    "auto_renew": true,
+    "name_servers": ["ns1.devhost.com", "ns2.devhost.com"],
+    "dns_records": [
+      { "type": "A", "host": "@", "value": "192.0.2.201" }
+    ]
+  },
+  {
+    "name": "clinic.health",
+    "expiry": "2026-03-03",
+    "status": "active",
+    "created_on": "2022-03-03",
+    "auto_renew": false,
+    "name_servers": ["ns1.healthdns.org", "ns2.healthdns.org"],
+    "dns_records": [
+      { "type": "A", "host": "portal", "value": "198.51.100.77" }
+    ]
+  },
+  {
+    "name": "market.biz",
+    "expiry": "2025-01-01",
+    "status": "active",
+    "created_on": "2021-01-01",
+    "auto_renew": false,
+    "name_servers": ["ns1.bizdns.com", "ns2.bizdns.com"],
+    "dns_records": [
+      { "type": "MX", "host": "@", "value": "mail.market.biz", "priority": 20 }
+    ]
+  },
+  {
+    "name": "readers.club",
+    "expiry": "2024-09-09",
+    "status": "expired",
+    "created_on": "2019-09-09",
+    "auto_renew": false,
+    "name_servers": ["ns1.bookdns.com", "ns2.bookdns.com"],
+    "dns_records": []
+  },
+  {
+    "name": "finance.io",
+    "expiry": "2025-12-31",
+    "status": "active",
+    "created_on": "2023-12-31",
+    "auto_renew": true,
+    "name_servers": ["ns1.finhost.io", "ns2.finhost.io"],
+    "dns_records": [
+      { "type": "A", "host": "@", "value": "203.0.113.200" }
+    ]
+  },
+  {
+    "name": "events.live",
+    "expiry": "2026-07-01",
+    "status": "active",
+    "created_on": "2021-07-01",
+    "auto_renew": true,
+    "name_servers": ["ns1.livedns.com", "ns2.livedns.com"],
+    "dns_records": [
+      { "type": "TXT", "host": "@", "value": "v=spf1 -all" }
+    ]
+  },
+  {
+    "name": "mentor.space",
+    "expiry": "2025-08-08",
+    "status": "active",
+    "created_on": "2020-08-08",
+    "auto_renew": true,
+    "name_servers": ["ns1.spacedns.org", "ns2.spacedns.org"],
+    "dns_records": [
+      { "type": "CNAME", "host": "www", "value": "mentor.page.link" }
+    ]
+  }
+]''';

@@ -1,0 +1,73 @@
+String sampleEmailDomains2 = '[]';
+String sampleEmailDomains = '''[
+  {
+    "domainName": "greenhost.com",
+    "packageName": "Basic",
+    "expires": "2025-12-01",
+    "status": "Active",
+    "autoRenewal": true
+  },
+  {
+    "domainName": "swiftmedia.net",
+    "packageName": "Pro",
+    "expires": "2026-01-15",
+    "status": "Active",
+    "autoRenewal": true
+  },
+  {
+    "domainName": "africaconsult.org",
+    "packageName": "Enterprise",
+    "expires": "2025-10-30",
+    "status": "Expired",
+    "autoRenewal": true
+  },
+  {
+    "domainName": "mtechtech.co.ke",
+    "packageName": "Basic",
+    "expires": "2025-11-22",
+    "status": "Active",
+    "autoRenewal": true
+  },
+  {
+    "domainName": "paylite.io",
+    "packageName": "Pro",
+    "expires": "2026-03-10",
+    "status": "Suspended",
+    "autoRenewal": true
+  },
+  {
+    "domainName": "eduknow.info",
+    "packageName": "Enterprise",
+    "expires": "2025-08-19",
+    "status": "Active",
+    "autoRenewal": true
+  },
+  {
+    "domainName": "freshdrops.biz",
+    "packageName": "Basic",
+    "expires": "2025-09-05",
+    "status": "Expired",
+    "autoRenewal": false
+  },
+  {
+    "domainName": "autoworks.tech",
+    "packageName": "Pro",
+    "expires": "2026-02-28",
+    "status": "Active",
+    "autoRenewal": true
+  },
+  {
+    "domainName": "quickmart.store",
+    "packageName": "Enterprise",
+    "expires": "2025-07-31",
+    "status": "Suspended",
+    "autoRenewal": false
+  },
+  {
+    "domainName": "zenlabs.app",
+    "packageName": "Basic",
+    "expires": "2025-12-12",
+    "status": "Active",
+    "autoRenewal": true
+  }
+]''';
