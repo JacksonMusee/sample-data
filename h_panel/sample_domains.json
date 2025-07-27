@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "name": "example.com",
     "expiry": "2025-10-01",
     "status": "active",
@@ -13,6 +14,7 @@
     ]
   },
   {
+    "id": 2,
     "name": "myblog.net",
     "expiry": "2025-03-15",
     "status": "expiring_soon",
@@ -25,6 +27,7 @@
     ]
   },
   {
+    "id": 3,
     "name": "startup.io",
     "expiry": "2026-01-20",
     "status": "active",
@@ -37,6 +40,7 @@
     ]
   },
   {
+    "id": 4,
     "name": "portfolio.dev",
     "expiry": "2024-12-05",
     "status": "expired",
@@ -48,6 +52,7 @@
     ]
   },
   {
+    "id": 5,
     "name": "company.africa",
     "expiry": "2025-07-30",
     "status": "active",
@@ -60,6 +65,7 @@
     ]
   },
   {
+    "id": 6,
     "name": "techhub.io",
     "expiry": "2025-11-11",
     "status": "active",
@@ -71,6 +77,7 @@
     ]
   },
   {
+    "id": 7,
     "name": "designlab.co",
     "expiry": "2026-04-20",
     "status": "active",
@@ -82,6 +89,7 @@
     ]
   },
   {
+    "id": 8,
     "name": "shopnow.store",
     "expiry": "2025-08-01",
     "status": "expiring_soon",
@@ -94,6 +102,7 @@
     ]
   },
   {
+    "id": 9,
     "name": "eco.world",
     "expiry": "2025-09-12",
     "status": "active",
@@ -105,6 +114,7 @@
     ]
   },
   {
+    "id": 10,
     "name": "devs.zone",
     "expiry": "2026-02-01",
     "status": "active",
@@ -117,6 +127,7 @@
     ]
   },
   {
+    "id": 11,
     "name": "codeplus.app",
     "expiry": "2025-05-05",
     "status": "active",
@@ -128,6 +139,7 @@
     ]
   },
   {
+    "id": 12,
     "name": "travel.africa",
     "expiry": "2024-10-10",
     "status": "expired",
@@ -137,6 +149,7 @@
     "dns_records": []
   },
   {
+    "id": 13,
     "name": "musiclab.fm",
     "expiry": "2025-12-12",
     "status": "active",
@@ -149,6 +162,7 @@
     ]
   },
   {
+    "id": 14,
     "name": "build.dev",
     "expiry": "2025-06-06",
     "status": "active",
@@ -160,6 +174,7 @@
     ]
   },
   {
+    "id": 15,
     "name": "clinic.health",
     "expiry": "2026-03-03",
     "status": "active",
@@ -171,6 +186,7 @@
     ]
   },
   {
+    "id": 16,
     "name": "market.biz",
     "expiry": "2025-01-01",
     "status": "active",
@@ -182,6 +198,7 @@
     ]
   },
   {
+    "id": 17,
     "name": "readers.club",
     "expiry": "2024-09-09",
     "status": "expired",
@@ -191,6 +208,7 @@
     "dns_records": []
   },
   {
+    "id": 18,
     "name": "finance.io",
     "expiry": "2025-12-31",
     "status": "active",
@@ -202,6 +220,7 @@
     ]
   },
   {
+    "id": 19,
     "name": "events.live",
     "expiry": "2026-07-01",
     "status": "active",
@@ -213,6 +232,7 @@
     ]
   },
   {
+    "id": 20,
     "name": "mentor.space",
     "expiry": "2025-08-08",
     "status": "active",
