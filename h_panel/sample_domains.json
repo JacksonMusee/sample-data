@@ -8,9 +8,25 @@
     "auto_renew": true,
     "name_servers": ["ns1.exampledns.com", "ns2.exampledns.com"],
     "dns_records": [
-      { "type": "A", "host": "@", "value": "192.0.2.1" },
-      { "type": "MX", "host": "@", "value": "mail.example.com", "priority": 10 },
-      { "type": "TXT", "host": "@", "value": "v=spf1 include:_spf.google.com ~all" }
+      {
+        "type": "A",
+        "name": "@",
+        "content": "192.0.2.1",
+        "ttl": 3600
+      },
+      {
+        "type": "MX",
+        "name": "@",
+        "content": "mail.example.com",
+        "priority": 10,
+        "ttl": 3600
+      },
+      {
+        "type": "TXT",
+        "name": "@",
+        "content": "v=spf1 include:_spf.google.com ~all",
+        "ttl": 3600
+      }
     ]
   },
   {
@@ -22,8 +38,18 @@
     "auto_renew": false,
     "name_servers": ["ns1.netdns.com", "ns2.netdns.com"],
     "dns_records": [
-      { "type": "A", "host": "www", "value": "203.0.113.5" },
-      { "type": "CNAME", "host": "blog", "value": "www.myblog.net" }
+      {
+        "type": "A",
+        "name": "www",
+        "content": "203.0.113.5",
+        "ttl": 3600
+      },
+      {
+        "type": "CNAME",
+        "name": "blog",
+        "content": "www.myblog.net",
+        "ttl": 3600
+      }
     ]
   },
   {
@@ -35,212 +61,446 @@
     "auto_renew": true,
     "name_servers": ["ns1.iohost.net", "ns2.iohost.net"],
     "dns_records": [
-      { "type": "A", "host": "@", "value": "198.51.100.12" },
-      { "type": "TXT", "host": "_dmarc", "value": "v=DMARC1; p=none" }
+      {
+        "type": "A",
+        "name": "@",
+        "content": "198.51.100.12",
+        "ttl": 3600
+      },
+      {
+        "type": "TXT",
+        "name": "_dmarc",
+        "content": "v=DMARC1; p=none",
+        "ttl": 3600
+      }
     ]
   },
   {
     "id": 4,
-    "name": "portfolio.dev",
+    "name": "photos.app",
     "expiry": "2024-12-05",
-    "status": "expired",
-    "created_on": "2019-12-05",
-    "auto_renew": false,
-    "name_servers": ["ns1.devhost.com", "ns2.devhost.com"],
+    "status": "active",
+    "created_on": "2022-12-05",
+    "auto_renew": true,
+    "name_servers": ["ns1.apps.com", "ns2.apps.com"],
     "dns_records": [
-      { "type": "A", "host": "@", "value": "203.0.113.10" }
+      {
+        "type": "A",
+        "name": "@",
+        "content": "172.16.0.1",
+        "ttl": 3600
+      },
+      {
+        "type": "A",
+        "name": "www",
+        "content": "172.16.0.2",
+        "ttl": 3600
+      }
     ]
   },
   {
     "id": 5,
-    "name": "company.africa",
-    "expiry": "2025-07-30",
+    "name": "shoplocal.co",
+    "expiry": "2025-05-18",
     "status": "active",
-    "created_on": "2022-07-30",
-    "auto_renew": true,
-    "name_servers": ["ns1.afdns.org", "ns2.afdns.org"],
+    "created_on": "2021-05-18",
+    "auto_renew": false,
+    "name_servers": ["ns1.shopdns.co", "ns2.shopdns.co"],
     "dns_records": [
-      { "type": "A", "host": "@", "value": "192.0.2.55" },
-      { "type": "MX", "host": "@", "value": "mail.company.africa", "priority": 5 }
+      {
+        "type": "A",
+        "name": "@",
+        "content": "10.0.0.1",
+        "ttl": 3600
+      },
+      {
+        "type": "CNAME",
+        "name": "www",
+        "content": "shoplocal.co",
+        "ttl": 3600
+      }
     ]
   },
   {
     "id": 6,
-    "name": "techhub.io",
-    "expiry": "2025-11-11",
+    "name": "traveler.org",
+    "expiry": "2026-07-22",
     "status": "active",
-    "created_on": "2021-11-11",
+    "created_on": "2019-07-22",
     "auto_renew": true,
-    "name_servers": ["ns1.techdns.com", "ns2.techdns.com"],
+    "name_servers": ["ns1.orgdns.com", "ns2.orgdns.com"],
     "dns_records": [
-      { "type": "A", "host": "@", "value": "198.51.100.23" }
+      {
+        "type": "A",
+        "name": "@",
+        "content": "208.67.222.222",
+        "ttl": 3600
+      },
+      {
+        "type": "MX",
+        "name": "@",
+        "content": "mail.traveler.org",
+        "priority": 10,
+        "ttl": 3600
+      }
     ]
   },
   {
     "id": 7,
-    "name": "designlab.co",
-    "expiry": "2026-04-20",
-    "status": "active",
-    "created_on": "2020-04-20",
+    "name": "myportfolio.dev",
+    "expiry": "2024-11-10",
+    "status": "expiring_soon",
+    "created_on": "2023-11-10",
     "auto_renew": false,
-    "name_servers": ["ns1.colab.co", "ns2.colab.co"],
+    "name_servers": ["ns1.devhost.net", "ns2.devhost.net"],
     "dns_records": [
-      { "type": "CNAME", "host": "www", "value": "designlab.github.io" }
+      {
+        "type": "A",
+        "name": "@",
+        "content": "192.168.1.1",
+        "ttl": 3600
+      }
     ]
   },
   {
     "id": 8,
-    "name": "shopnow.store",
-    "expiry": "2025-08-01",
-    "status": "expiring_soon",
-    "created_on": "2023-08-01",
+    "name": "healthylife.health",
+    "expiry": "2026-02-01",
+    "status": "active",
+    "created_on": "2021-02-01",
     "auto_renew": true,
-    "name_servers": ["ns1.shopdns.com", "ns2.shopdns.com"],
+    "name_servers": ["ns1.healthdns.com", "ns2.healthdns.com"],
     "dns_records": [
-      { "type": "A", "host": "@", "value": "192.0.2.80" },
-      { "type": "TXT", "host": "@", "value": "google-site-verification=abc123" }
+      {
+        "type": "A",
+        "name": "www",
+        "content": "1.1.1.1",
+        "ttl": 3600
+      },
+      {
+        "type": "TXT",
+        "name": "@",
+        "content": "google-site-verification=abc123def",
+        "ttl": 3600
+      }
     ]
   },
   {
     "id": 9,
-    "name": "eco.world",
-    "expiry": "2025-09-12",
+    "name": "gamesonline.gg",
+    "expiry": "2025-08-30",
     "status": "active",
-    "created_on": "2021-09-12",
-    "auto_renew": false,
-    "name_servers": ["ns1.earthdns.org", "ns2.earthdns.org"],
+    "created_on": "2022-08-30",
+    "auto_renew": true,
+    "name_servers": ["ns1.ggdns.com", "ns2.ggdns.com"],
     "dns_records": [
-      { "type": "A", "host": "@", "value": "203.0.113.98" }
+      {
+        "type": "A",
+        "name": "play",
+        "content": "8.8.8.8",
+        "ttl": 3600
+      },
+      {
+        "type": "SRV",
+        "name": "_minecraft._tcp",
+        "content": "0 5 25565 play.gamesonline.gg",
+        "ttl": 3600
+      }
     ]
   },
   {
     "id": 10,
-    "name": "devs.zone",
-    "expiry": "2026-02-01",
+    "name": "education.edu",
+    "expiry": "2027-04-10",
     "status": "active",
-    "created_on": "2022-02-01",
+    "created_on": "2018-04-10",
     "auto_renew": true,
-    "name_servers": ["ns1.devzone.com", "ns2.devzone.com"],
+    "name_servers": ["ns1.edudns.com", "ns2.edudns.com"],
     "dns_records": [
-      { "type": "A", "host": "@", "value": "198.51.100.45" },
-      { "type": "TXT", "host": "@", "value": "v=spf1 +mx -all" }
+      {
+        "type": "A",
+        "name": "www",
+        "content": "64.233.160.0",
+        "ttl": 3600
+      },
+      {
+        "type": "MX",
+        "name": "@",
+        "content": "mail.education.edu",
+        "priority": 10,
+        "ttl": 3600
+      }
     ]
   },
   {
     "id": 11,
-    "name": "codeplus.app",
-    "expiry": "2025-05-05",
+    "name": "community.net",
+    "expiry": "2025-09-12",
     "status": "active",
-    "created_on": "2020-05-05",
-    "auto_renew": false,
-    "name_servers": ["ns1.codehost.app", "ns2.codehost.app"],
+    "created_on": "2020-09-12",
+    "auto_renew": true,
+    "name_servers": ["ns1.communityhost.com", "ns2.communityhost.com"],
     "dns_records": [
-      { "type": "CNAME", "host": "www", "value": "hosted.page.link" }
+      {
+        "type": "A",
+        "name": "@",
+        "content": "104.26.4.1",
+        "ttl": 3600
+      }
     ]
   },
   {
     "id": 12,
-    "name": "travel.africa",
-    "expiry": "2024-10-10",
-    "status": "expired",
-    "created_on": "2018-10-10",
+    "name": "developer.tools",
+    "expiry": "2025-01-30",
+    "status": "expiring_soon",
+    "created_on": "2022-01-30",
     "auto_renew": false,
-    "name_servers": ["ns1.africatravel.com", "ns2.africatravel.com"],
-    "dns_records": []
+    "name_servers": ["ns1.toolsdns.com", "ns2.toolsdns.com"],
+    "dns_records": [
+      {
+        "type": "A",
+        "name": "api",
+        "content": "172.217.7.1",
+        "ttl": 3600
+      },
+      {
+        "type": "TXT",
+        "name": "@",
+        "content": "v=spf1 include:spf.mailgun.org ~all",
+        "ttl": 3600
+      }
+    ]
   },
   {
     "id": 13,
-    "name": "musiclab.fm",
-    "expiry": "2025-12-12",
+    "name": "fashion.style",
+    "expiry": "2026-03-03",
     "status": "active",
-    "created_on": "2021-12-12",
+    "created_on": "2023-03-03",
     "auto_renew": true,
-    "name_servers": ["ns1.musicdns.fm", "ns2.musicdns.fm"],
+    "name_servers": ["ns1.styledns.com", "ns2.styledns.com"],
     "dns_records": [
-      { "type": "A", "host": "@", "value": "203.0.113.120" },
-      { "type": "MX", "host": "@", "value": "mail.musiclab.fm", "priority": 10 }
+      {
+        "type": "A",
+        "name": "www",
+        "content": "192.0.2.100",
+        "ttl": 3600
+      },
+      {
+        "type": "CNAME",
+        "name": "shop",
+        "content": "www.fashion.style",
+        "ttl": 3600
+      }
     ]
   },
   {
     "id": 14,
-    "name": "build.dev",
-    "expiry": "2025-06-06",
+    "name": "artgallery.art",
+    "expiry": "2025-06-25",
     "status": "active",
-    "created_on": "2020-06-06",
+    "created_on": "2021-06-25",
     "auto_renew": true,
-    "name_servers": ["ns1.devhost.com", "ns2.devhost.com"],
+    "name_servers": ["ns1.artdns.com", "ns2.artdns.com"],
     "dns_records": [
-      { "type": "A", "host": "@", "value": "192.0.2.201" }
+      {
+        "type": "A",
+        "name": "@",
+        "content": "198.51.100.200",
+        "ttl": 3600
+      },
+      {
+        "type": "MX",
+        "name": "@",
+        "content": "mail.artgallery.art",
+        "priority": 10,
+        "ttl": 3600
+      }
     ]
   },
   {
     "id": 15,
-    "name": "clinic.health",
-    "expiry": "2026-03-03",
-    "status": "active",
-    "created_on": "2022-03-03",
+    "name": "foodie.blog",
+    "expiry": "2024-10-15",
+    "status": "expiring_soon",
+    "created_on": "2023-10-15",
     "auto_renew": false,
-    "name_servers": ["ns1.healthdns.org", "ns2.healthdns.org"],
+    "name_servers": ["ns1.bloghost.com", "ns2.bloghost.com"],
     "dns_records": [
-      { "type": "A", "host": "portal", "value": "198.51.100.77" }
+      {
+        "type": "A",
+        "name": "@",
+        "content": "104.26.5.1",
+        "ttl": 3600
+      }
     ]
   },
   {
     "id": 16,
-    "name": "market.biz",
-    "expiry": "2025-01-01",
+    "name": "pets.care",
+    "expiry": "2026-08-01",
     "status": "active",
-    "created_on": "2021-01-01",
-    "auto_renew": false,
-    "name_servers": ["ns1.bizdns.com", "ns2.bizdns.com"],
+    "created_on": "2020-08-01",
+    "auto_renew": true,
+    "name_servers": ["ns1.caredns.com", "ns2.caredns.com"],
     "dns_records": [
-      { "type": "MX", "host": "@", "value": "mail.market.biz", "priority": 20 }
+      {
+        "type": "A",
+        "name": "www",
+        "content": "203.0.113.100",
+        "ttl": 3600
+      },
+      {
+        "type": "TXT",
+        "name": "_dmarc",
+        "content": "v=DMARC1; p=quarantine",
+        "ttl": 3600
+      }
     ]
   },
   {
     "id": 17,
-    "name": "readers.club",
-    "expiry": "2024-09-09",
-    "status": "expired",
-    "created_on": "2019-09-09",
-    "auto_renew": false,
-    "name_servers": ["ns1.bookdns.com", "ns2.bookdns.com"],
-    "dns_records": []
+    "name": "sports.team",
+    "expiry": "2025-11-20",
+    "status": "active",
+    "created_on": "2022-11-20",
+    "auto_renew": true,
+    "name_servers": ["ns1.teamdns.com", "ns2.teamdns.com"],
+    "dns_records": [
+      {
+        "type": "A",
+        "name": "@",
+        "content": "192.168.0.10",
+        "ttl": 3600
+      }
+    ]
   },
   {
     "id": 18,
-    "name": "finance.io",
-    "expiry": "2025-12-31",
+    "name": "cloudstorage.online",
+    "expiry": "2027-02-14",
     "status": "active",
-    "created_on": "2023-12-31",
+    "created_on": "2019-02-14",
     "auto_renew": true,
-    "name_servers": ["ns1.finhost.io", "ns2.finhost.io"],
+    "name_servers": ["ns1.onlinedns.com", "ns2.onlinedns.com"],
     "dns_records": [
-      { "type": "A", "host": "@", "value": "203.0.113.200" }
+      {
+        "type": "A",
+        "name": "files",
+        "content": "8.8.4.4",
+        "ttl": 3600
+      },
+      {
+        "type": "CNAME",
+        "name": "ftp",
+        "content": "files.cloudstorage.online",
+        "ttl": 3600
+      }
     ]
   },
   {
     "id": 19,
-    "name": "events.live",
-    "expiry": "2026-07-01",
-    "status": "active",
-    "created_on": "2021-07-01",
-    "auto_renew": true,
-    "name_servers": ["ns1.livedns.com", "ns2.livedns.com"],
+    "name": "music.pro",
+    "expiry": "2024-09-01",
+    "status": "expiring_soon",
+    "created_on": "2023-09-01",
+    "auto_renew": false,
+    "name_servers": ["ns1.prodns.com", "ns2.prodns.com"],
     "dns_records": [
-      { "type": "TXT", "host": "@", "value": "v=spf1 -all" }
+      {
+        "type": "A",
+        "name": "listen",
+        "content": "172.16.0.50",
+        "ttl": 3600
+      }
     ]
   },
   {
     "id": 20,
-    "name": "mentor.space",
-    "expiry": "2025-08-08",
+    "name": "finance.money",
+    "expiry": "2026-04-20",
     "status": "active",
-    "created_on": "2020-08-08",
+    "created_on": "2021-04-20",
     "auto_renew": true,
-    "name_servers": ["ns1.spacedns.org", "ns2.spacedns.org"],
+    "name_servers": ["ns1.moneydns.com", "ns2.moneydns.com"],
     "dns_records": [
-      { "type": "CNAME", "host": "www", "value": "mentor.page.link" }
+      {
+        "type": "A",
+        "name": "www",
+        "content": "198.51.100.1",
+        "ttl": 3600
+      },
+      {
+        "type": "MX",
+        "name": "@",
+        "content": "mail.finance.money",
+        "priority": 10,
+        "ttl": 3600
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "name": "realestate.realty",
+    "expiry": "2025-07-07",
+    "status": "active",
+    "created_on": "2020-07-07",
+    "auto_renew": true,
+    "name_servers": ["ns1.realtyhost.com", "ns2.realtyhost.com"],
+    "dns_records": [
+      {
+        "type": "A",
+        "name": "@",
+        "content": "104.26.6.1",
+        "ttl": 3600
+      },
+      {
+        "type": "CNAME",
+        "name": "listings",
+        "content": "listings.realty.com",
+        "ttl": 3600
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "name": "coffee.shop",
+    "expiry": "2024-11-25",
+    "status": "expiring_soon",
+    "created_on": "2023-11-25",
+    "auto_renew": false,
+    "name_servers": ["ns1.coffeeshop.com", "ns2.coffeeshop.com"],
+    "dns_records": [
+      {
+        "type": "A",
+        "name": "menu",
+        "content": "192.0.2.50",
+        "ttl": 3600
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "name": "wedding.love",
+    "expiry": "2026-05-15",
+    "status": "active",
+    "created_on": "2022-05-15",
+    "auto_renew": true,
+    "name_servers": ["ns1.lovedns.com", "ns2.lovedns.com"],
+    "dns_records": [
+      {
+        "type": "A",
+        "name": "www",
+        "content": "172.16.0.200",
+        "ttl": 3600
+      },
+      {
+        "type": "TXT",
+        "name": "@",
+        "content": "v=spf1 include:spf.sendgrid.net ~all",
+        "ttl": 3600
+      }
     ]
   }
 ]
