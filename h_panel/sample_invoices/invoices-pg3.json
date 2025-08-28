@@ -160,9 +160,9 @@
     "last_page": 3
   },
   "links": {
-    "first": "https://api.example.com/invoices?page=1",
-    "last": "https://api.example.com/invoices?page=3",
-    "prev": "https://api.example.com/invoices?page=2",
+    "first": "https://raw.githubusercontent.com/JacksonMusee/sample-data/refs/heads/main/h_panel/sample_invoices/invoices-pg1.json",
+    "last": "https://raw.githubusercontent.com/JacksonMusee/sample-data/refs/heads/main/h_panel/sample_invoices/invoices-pg3.json",
+    "prev": "https://raw.githubusercontent.com/JacksonMusee/sample-data/refs/heads/main/h_panel/sample_invoices/invoices-pg2.json",
     "next": null
   }
 }
