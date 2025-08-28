@@ -3,13 +3,13 @@
     {
       "id": 21,
       "invoice_no": "INV-2025-021",
-      "item": {
+      "items": [{
         "product": "Cloud Storage",
         "description": "100GB cloud storage plan renewal (2025-09-01 – 2026-08-31)",
         "price": 1500.00,
         "quantity": 1,
         "total": 1500.00
-      },
+      }],
       "invoice_date": "2025-07-25",
       "sub_total": 1500.00,
       "vat_rate": 16,
