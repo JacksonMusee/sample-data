@@ -261,7 +261,7 @@
   },
   "links": {
     "first": "https://raw.githubusercontent.com/JacksonMusee/sample-data/refs/heads/main/h_panel/sample_invoices/invoices-pg1.json",
-    "prev": null,
+    "previous": null,
     "next": "https://raw.githubusercontent.com/JacksonMusee/sample-data/refs/heads/main/h_panel/sample_invoices/invoices-pg2.json",
     "last": "https://raw.githubusercontent.com/JacksonMusee/sample-data/refs/heads/main/h_panel/sample_invoices/invoices-pg3.json"
   }
