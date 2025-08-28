@@ -3,13 +3,13 @@
     {
       "id": 11,
       "invoice_no": "INV-2025-011",
-      "item": {
+      "items": [{
         "product": "web hosting",
         "description": "greenhost.com annual hosting (1/2/2025 - 31/1/2026)",
         "price": 7000.00,
         "quantity": 1,
         "total": 7000.00
-      },
+      }],
       "invoice_date": "2025-02-01",
       "sub_total": 7000.00,
       "vat_rate": 16,
@@ -28,13 +28,13 @@
     {
       "id": 12,
       "invoice_no": "INV-2025-012",
-      "item": {
+      "items": [{
         "product": "erp license",
         "description": "5-user ERP license (annual)",
         "price": 250000.00,
         "quantity": 1,
         "total": 250000.00
-      },
+      }],
       "invoice_date": "2025-02-05",
       "sub_total": 250000.00,
       "vat_rate": 16,
@@ -78,13 +78,13 @@
     {
       "id": 14,
       "invoice_no": "INV-2025-014",
-      "item": {
+      "items": [{
         "product": "app development",
         "description": "Deposit for mobile app project (Phase 1)",
         "price": 500000.00,
         "quantity": 1,
         "total": 500000.00
-      },
+      }],
       "invoice_date": "2025-03-10",
       "sub_total": 500000.00,
       "vat_rate": 16,
@@ -103,13 +103,13 @@
     {
       "id": 15,
       "invoice_no": "INV-2025-015",
-      "item": {
+      "items": [{
         "product": "ssl certificate",
         "description": "wildcard SSL (1yr)",
         "price": 15000.00,
         "quantity": 1,
         "total": 15000.00
-      },
+      }],
       "invoice_date": "2025-03-12",
       "sub_total": 15000.00,
       "vat_rate": 16,
@@ -128,13 +128,13 @@
     {
       "id": 16,
       "invoice_no": "INV-2025-016",
-      "item": {
+      "items": [{
         "product": "maintenance",
         "description": "monthly IT support",
         "price": 40000.00,
         "quantity": 1,
         "total": 40000.00
-      },
+      }],
       "invoice_date": "2025-04-01",
       "sub_total": 40000.00,
       "vat_rate": 16,
@@ -153,13 +153,13 @@
     {
       "id": 17,
       "invoice_no": "INV-2025-017",
-      "item": {
+      "items": [{
         "product": "consulting",
         "description": "AI strategy workshop",
         "price": 150000.00,
         "quantity": 1,
         "total": 150000.00
-      },
+      }],
       "invoice_date": "2025-04-05",
       "sub_total": 150000.00,
       "vat_rate": 16,
@@ -178,13 +178,13 @@
     {
       "id": 18,
       "invoice_no": "INV-2025-018",
-      "item": {
+      "items": [{
         "product": "email hosting",
         "description": "20 mailboxes annual subscription",
         "price": 24000.00,
         "quantity": 1,
         "total": 24000.00
-      },
+      }],
       "invoice_date": "2025-05-01",
       "sub_total": 24000.00,
       "vat_rate": 16,
@@ -203,13 +203,13 @@
     {
       "id": 19,
       "invoice_no": "INV-2025-019",
-      "item": {
+      "items": [{
         "product": "training",
         "description": "cybersecurity training (onsite)",
         "price": 90000.00,
         "quantity": 1,
         "total": 90000.00
-      },
+      }],
       "invoice_date": "2025-05-10",
       "sub_total": 90000.00,
       "vat_rate": 16,
@@ -228,13 +228,13 @@
     {
       "id": 20,
       "invoice_no": "INV-2025-020",
-      "item": {
+      "items": [{
         "product": "api usage",
         "description": "API overage fees (April 2025)",
         "price": 5000.00,
         "quantity": 1,
         "total": 5000.00
-      },
+      }],
       "invoice_date": "2025-05-15",
       "sub_total": 5000.00,
       "vat_rate": 16,

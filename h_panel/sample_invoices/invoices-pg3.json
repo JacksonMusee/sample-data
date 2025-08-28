@@ -28,13 +28,13 @@
     {
       "id": 22,
       "invoice_no": "INV-2025-022",
-      "item": {
+      "items": [{
         "product": "ERP Module",
         "description": "Finance module annual license (2025-09-01 – 2026-08-31)",
         "price": 1800.00,
         "quantity": 1,
         "total": 1800.00
-      },
+      }],
       "invoice_date": "2025-07-28",
       "sub_total": 1800.00,
       "vat_rate": 16,
@@ -53,13 +53,13 @@
     {
       "id": 23,
       "invoice_no": "INV-2025-023",
-      "item": {
+      "items": [{
         "product": "Domain",
         "description": "safaritech.org renewal (2025-10-01 – 2026-09-30)",
         "price": 1200.00,
         "quantity": 1,
         "total": 1200.00
-      },
+      }],
       "invoice_date": "2025-08-01",
       "sub_total": 1200.00,
       "vat_rate": 16,
@@ -78,13 +78,13 @@
     {
       "id": 24,
       "invoice_no": "INV-2025-024",
-      "item": {
+      "items": [{
         "product": "Website Maintenance",
         "description": "Monthly maintenance retainer (August 2025)",
         "price": 5000.00,
         "quantity": 1,
         "total": 5000.00
-      },
+      }],
       "invoice_date": "2025-08-05",
       "sub_total": 5000.00,
       "vat_rate": 16,
@@ -103,13 +103,13 @@
     {
       "id": 25,
       "invoice_no": "INV-2025-025",
-      "item": {
+      "items": [{
         "product": "Mobile App",
         "description": "Custom app maintenance (Q3 2025)",
         "price": 20000.00,
         "quantity": 1,
         "total": 20000.00
-      },
+      }],
       "invoice_date": "2025-08-10",
       "sub_total": 20000.00,
       "vat_rate": 16,
@@ -128,13 +128,13 @@
     {
       "id": 26,
       "invoice_no": "INV-2025-026",
-      "item": {
+      "items": [{
         "product": "IoT Service",
         "description": "Smart sensors maintenance (annual)",
         "price": 15000.00,
         "quantity": 1,
         "total": 15000.00
-      },
+      }],
       "invoice_date": "2025-08-15",
       "sub_total": 15000.00,
       "vat_rate": 16,
