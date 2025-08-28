@@ -1,5 +1,4 @@
 {
-  "status": "success",
   "data": [
     {
       "id": 1,
@@ -407,11 +406,13 @@
       }
     }
   ],
-  "meta": {
-    "page": 1,
-    "per_page": 15,
-    "total": 15,
-    "total_pages": 1
+  "meta": {    
+      "total": 15,
+      "per_page": 15,
+      "current_page": 1,
+      "last_page": 1,
+      "from": 11,
+      "to": 20
   },
   "links": {
     "first": "https://api.example.com/invoices?page=1&per_page=15",
