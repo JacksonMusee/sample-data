@@ -257,7 +257,7 @@
     "to": 20,
     "per_page": 10,
     "total": 26,
-    "last_page": 3
+    "last_page": 1
   },
   "links": {
     "first": "https://raw.githubusercontent.com/JacksonMusee/sample-data/refs/heads/main/h_panel/sample_invoices/invoices-pg1.json",
