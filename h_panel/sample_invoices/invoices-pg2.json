@@ -1,0 +1,269 @@
+{
+  "data": [
+    {
+      "id": 11,
+      "invoice_no": "INV-2025-011",
+      "item": {
+        "product": "web hosting",
+        "description": "greenhost.com annual hosting (1/2/2025 - 31/1/2026)",
+        "price": 7000.00,
+        "quantity": 1,
+        "total": 7000.00
+      },
+      "invoice_date": "2025-02-01",
+      "sub_total": 7000.00,
+      "vat_rate": 16,
+      "vat_amount": 1120.00,
+      "total_amount": 8120.00,
+      "status": "paid",
+      "due_date": "2025-02-15",
+      "currency": "KES",
+      "client": {
+        "name": "Greenhost Ltd",
+        "city": "Nairobi",
+        "country": "Kenya",
+        "email": "accounts@greenhost.com"
+      }
+    },
+    {
+      "id": 12,
+      "invoice_no": "INV-2025-012",
+      "item": {
+        "product": "erp license",
+        "description": "5-user ERP license (annual)",
+        "price": 250000.00,
+        "quantity": 1,
+        "total": 250000.00
+      },
+      "invoice_date": "2025-02-05",
+      "sub_total": 250000.00,
+      "vat_rate": 16,
+      "vat_amount": 40000.00,
+      "total_amount": 290000.00,
+      "status": "unpaid",
+      "due_date": "2025-02-20",
+      "currency": "USD",
+      "client": {
+        "name": "Acme Corp",
+        "city": "New York",
+        "country": "USA",
+        "email": "billing@acme.com"
+      }
+    },
+    {
+      "id": 13,
+      "invoice_no": "INV-2025-013",
+      "item": {
+        "product": "domain renewal",
+        "description": "africadev.org renewal (1/3/2025 - 28/2/2026)",
+        "price": 1200.00,
+        "quantity": 1,
+        "total": 1200.00
+      },
+      "invoice_date": "2025-03-01",
+      "sub_total": 1200.00,
+      "vat_rate": 16,
+      "vat_amount": 192.00,
+      "total_amount": 1392.00,
+      "status": "paid",
+      "due_date": "2025-03-15",
+      "currency": "KES",
+      "client": {
+        "name": "AfricaDev NGO",
+        "city": "Kampala",
+        "country": "Uganda",
+        "email": "finance@africadev.org"
+      }
+    },
+    {
+      "id": 14,
+      "invoice_no": "INV-2025-014",
+      "item": {
+        "product": "app development",
+        "description": "Deposit for mobile app project (Phase 1)",
+        "price": 500000.00,
+        "quantity": 1,
+        "total": 500000.00
+      },
+      "invoice_date": "2025-03-10",
+      "sub_total": 500000.00,
+      "vat_rate": 16,
+      "vat_amount": 80000.00,
+      "total_amount": 580000.00,
+      "status": "partial",
+      "due_date": "2025-03-24",
+      "currency": "GBP",
+      "client": {
+        "name": "TechBridge UK",
+        "city": "London",
+        "country": "UK",
+        "email": "accounts@techbridge.co.uk"
+      }
+    },
+    {
+      "id": 15,
+      "invoice_no": "INV-2025-015",
+      "item": {
+        "product": "ssl certificate",
+        "description": "wildcard SSL (1yr)",
+        "price": 15000.00,
+        "quantity": 1,
+        "total": 15000.00
+      },
+      "invoice_date": "2025-03-12",
+      "sub_total": 15000.00,
+      "vat_rate": 16,
+      "vat_amount": 2400.00,
+      "total_amount": 17400.00,
+      "status": "paid",
+      "due_date": "2025-03-26",
+      "currency": "EUR",
+      "client": {
+        "name": "AutoSecure GmbH",
+        "city": "Berlin",
+        "country": "Germany",
+        "email": "buchhaltung@autosecure.de"
+      }
+    },
+    {
+      "id": 16,
+      "invoice_no": "INV-2025-016",
+      "item": {
+        "product": "maintenance",
+        "description": "monthly IT support",
+        "price": 40000.00,
+        "quantity": 1,
+        "total": 40000.00
+      },
+      "invoice_date": "2025-04-01",
+      "sub_total": 40000.00,
+      "vat_rate": 16,
+      "vat_amount": 6400.00,
+      "total_amount": 46400.00,
+      "status": "unpaid",
+      "due_date": "2025-04-15",
+      "currency": "KES",
+      "client": {
+        "name": "Jumia Kenya",
+        "city": "Nairobi",
+        "country": "Kenya",
+        "email": "finance@jumia.co.ke"
+      }
+    },
+    {
+      "id": 17,
+      "invoice_no": "INV-2025-017",
+      "item": {
+        "product": "consulting",
+        "description": "AI strategy workshop",
+        "price": 150000.00,
+        "quantity": 1,
+        "total": 150000.00
+      },
+      "invoice_date": "2025-04-05",
+      "sub_total": 150000.00,
+      "vat_rate": 16,
+      "vat_amount": 24000.00,
+      "total_amount": 174000.00,
+      "status": "paid",
+      "due_date": "2025-04-19",
+      "currency": "USD",
+      "client": {
+        "name": "FutureTech Inc",
+        "city": "San Francisco",
+        "country": "USA",
+        "email": "ap@futuretech.com"
+      }
+    },
+    {
+      "id": 18,
+      "invoice_no": "INV-2025-018",
+      "item": {
+        "product": "email hosting",
+        "description": "20 mailboxes annual subscription",
+        "price": 24000.00,
+        "quantity": 1,
+        "total": 24000.00
+      },
+      "invoice_date": "2025-05-01",
+      "sub_total": 24000.00,
+      "vat_rate": 16,
+      "vat_amount": 3840.00,
+      "total_amount": 27840.00,
+      "status": "unpaid",
+      "due_date": "2025-05-15",
+      "currency": "KES",
+      "client": {
+        "name": "Kenya Tours Ltd",
+        "city": "Mombasa",
+        "country": "Kenya",
+        "email": "info@kenyatours.co.ke"
+      }
+    },
+    {
+      "id": 19,
+      "invoice_no": "INV-2025-019",
+      "item": {
+        "product": "training",
+        "description": "cybersecurity training (onsite)",
+        "price": 90000.00,
+        "quantity": 1,
+        "total": 90000.00
+      },
+      "invoice_date": "2025-05-10",
+      "sub_total": 90000.00,
+      "vat_rate": 16,
+      "vat_amount": 14400.00,
+      "total_amount": 104400.00,
+      "status": "partial",
+      "due_date": "2025-05-24",
+      "currency": "EUR",
+      "client": {
+        "name": "DataSecure BV",
+        "city": "Amsterdam",
+        "country": "Netherlands",
+        "email": "billing@datasecure.nl"
+      }
+    },
+    {
+      "id": 20,
+      "invoice_no": "INV-2025-020",
+      "item": {
+        "product": "api usage",
+        "description": "API overage fees (April 2025)",
+        "price": 5000.00,
+        "quantity": 1,
+        "total": 5000.00
+      },
+      "invoice_date": "2025-05-15",
+      "sub_total": 5000.00,
+      "vat_rate": 16,
+      "vat_amount": 800.00,
+      "total_amount": 5800.00,
+      "status": "paid",
+      "due_date": "2025-05-29",
+      "currency": "GBP",
+      "client": {
+        "name": "CloudBridge UK",
+        "city": "Manchester",
+        "country": "UK",
+        "email": "finance@cloudbridge.co.uk"
+      }
+    }
+  ],
+  "meta": {
+    "current_page": 2,
+    "from": 11,
+    "to": 20,
+    "per_page": 10,
+    "total": 26,
+    "last_page": 3
+  },
+  "links": {
+    "first": "https://api.example.com/invoices?page=1",
+    "last": "https://api.example.com/invoices?page=3",
+    "prev": "https://api.example.com/invoices?page=1",
+    "next": "https://api.example.com/invoices?page=3"
+  }
+}
+

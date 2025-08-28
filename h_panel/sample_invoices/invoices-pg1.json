@@ -1,0 +1,269 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "invoice_no": "INV-2025-001",
+      "item": {
+        "product": "domain",
+        "description": "deviceq.co.ke domain renewal (01/01/2026 - 31/12/2026)",
+        "price": 1500.00,
+        "quantity": 1,
+        "total": 1500.00
+      },
+      "invoice_date": "2025-01-15",
+      "sub_total": 1500.00,
+      "vat_rate": 16,
+      "vat_amount": 240.00,
+      "total_amount": 1740.00,
+      "currency": "KES",
+      "status": "paid",
+      "due_date": "2025-01-30",
+      "client": {
+        "name": "DeviceQ Ltd",
+        "city": "Nairobi",
+        "country": "Kenya",
+        "email": "accounts@deviceq.co.ke"
+      }
+    },
+    {
+      "id": 2,
+      "invoice_no": "INV-2025-002",
+      "item": {
+        "product": "email hosting",
+        "description": "5 mailboxes for pafe.co.ke (01/01/2026 - 31/12/2026)",
+        "price": 10000.00,
+        "quantity": 1,
+        "total": 10000.00
+      },
+      "invoice_date": "2025-01-20",
+      "sub_total": 10000.00,
+      "vat_rate": 16,
+      "vat_amount": 1600.00,
+      "total_amount": 11600.00,
+      "currency": "KES",
+      "status": "unpaid",
+      "due_date": "2025-02-04",
+      "client": {
+        "name": "Pafé Tech Co.",
+        "city": "Nairobi",
+        "country": "Kenya",
+        "email": "finance@pafe.co.ke"
+      }
+    },
+    {
+      "id": 3,
+      "invoice_no": "INV-2025-003",
+      "item": {
+        "product": "cloud hosting",
+        "description": "VPS Hosting Plan - Standard",
+        "price": 50.00,
+        "quantity": 1,
+        "total": 50.00
+      },
+      "invoice_date": "2025-01-22",
+      "sub_total": 50.00,
+      "vat_rate": 20,
+      "vat_amount": 10.00,
+      "total_amount": 60.00,
+      "currency": "USD",
+      "status": "paid",
+      "due_date": "2025-02-06",
+      "client": {
+        "name": "GlobalX Inc",
+        "city": "New York",
+        "country": "USA",
+        "email": "billing@globalx.com"
+      }
+    },
+    {
+      "id": 4,
+      "invoice_no": "INV-2025-004",
+      "item": {
+        "product": "SSL certificate",
+        "description": "SSL for spacex.com (2025-2026)",
+        "price": 120.00,
+        "quantity": 1,
+        "total": 120.00
+      },
+      "invoice_date": "2025-01-25",
+      "sub_total": 120.00,
+      "vat_rate": 19,
+      "vat_amount": 22.80,
+      "total_amount": 142.80,
+      "currency": "EUR",
+      "status": "paid",
+      "due_date": "2025-02-09",
+      "client": {
+        "name": "SpaceX GmbH",
+        "city": "Berlin",
+        "country": "Germany",
+        "email": "accounts@spacex.eu"
+      }
+    },
+    {
+      "id": 5,
+      "invoice_no": "INV-2025-005",
+      "item": {
+        "product": "ERP license",
+        "description": "ERP system license - 1 year",
+        "price": 50000.00,
+        "quantity": 1,
+        "total": 50000.00
+      },
+      "invoice_date": "2025-01-30",
+      "sub_total": 50000.00,
+      "vat_rate": 16,
+      "vat_amount": 8000.00,
+      "total_amount": 58000.00,
+      "currency": "KES",
+      "status": "pending",
+      "due_date": "2025-02-14",
+      "client": {
+        "name": "Kenya Insurance Corp",
+        "city": "Nairobi",
+        "country": "Kenya",
+        "email": "accounts@kenins.co.ke"
+      }
+    },
+    {
+      "id": 6,
+      "invoice_no": "INV-2025-006",
+      "item": {
+        "product": "website development",
+        "description": "Corporate website redesign",
+        "price": 2000.00,
+        "quantity": 1,
+        "total": 2000.00
+      },
+      "invoice_date": "2025-02-01",
+      "sub_total": 2000.00,
+      "vat_rate": 10,
+      "vat_amount": 200.00,
+      "total_amount": 2200.00,
+      "currency": "USD",
+      "status": "unpaid",
+      "due_date": "2025-02-16",
+      "client": {
+        "name": "Bright Future Org",
+        "city": "London",
+        "country": "UK",
+        "email": "info@brightfuture.org"
+      }
+    },
+    {
+      "id": 7,
+      "invoice_no": "INV-2025-007",
+      "item": {
+        "product": "app maintenance",
+        "description": "Mobile app bug fixes & updates",
+        "price": 30000.00,
+        "quantity": 1,
+        "total": 30000.00
+      },
+      "invoice_date": "2025-02-05",
+      "sub_total": 30000.00,
+      "vat_rate": 16,
+      "vat_amount": 4800.00,
+      "total_amount": 34800.00,
+      "currency": "KES",
+      "status": "paid",
+      "due_date": "2025-02-20",
+      "client": {
+        "name": "Jumia Kenya",
+        "city": "Nairobi",
+        "country": "Kenya",
+        "email": "finance@jumia.co.ke"
+      }
+    },
+    {
+      "id": 8,
+      "invoice_no": "INV-2025-008",
+      "item": {
+        "product": "IoT sensors",
+        "description": "Smart farming sensors (10 units)",
+        "price": 500.00,
+        "quantity": 10,
+        "total": 5000.00
+      },
+      "invoice_date": "2025-02-07",
+      "sub_total": 5000.00,
+      "vat_rate": 8,
+      "vat_amount": 400.00,
+      "total_amount": 5400.00,
+      "currency": "USD",
+      "status": "unpaid",
+      "due_date": "2025-02-22",
+      "client": {
+        "name": "AgriTech Solutions",
+        "city": "Cape Town",
+        "country": "South Africa",
+        "email": "sales@agritech.co.za"
+      }
+    },
+    {
+      "id": 9,
+      "invoice_no": "INV-2025-009",
+      "item": {
+        "product": "consulting",
+        "description": "IT consulting (20 hours)",
+        "price": 100.00,
+        "quantity": 20,
+        "total": 2000.00
+      },
+      "invoice_date": "2025-02-10",
+      "sub_total": 2000.00,
+      "vat_rate": 15,
+      "vat_amount": 300.00,
+      "total_amount": 2300.00,
+      "currency": "USD",
+      "status": "pending",
+      "due_date": "2025-02-25",
+      "client": {
+        "name": "TechBridge",
+        "city": "Toronto",
+        "country": "Canada",
+        "email": "finance@techbridge.ca"
+      }
+    },
+    {
+      "id": 10,
+      "invoice_no": "INV-2025-010",
+      "item": {
+        "product": "training",
+        "description": "ERP training (5 staff)",
+        "price": 15000.00,
+        "quantity": 1,
+        "total": 15000.00
+      },
+      "invoice_date": "2025-02-12",
+      "sub_total": 15000.00,
+      "vat_rate": 16,
+      "vat_amount": 2400.00,
+      "total_amount": 17400.00,
+      "currency": "KES",
+      "status": "paid",
+      "due_date": "2025-02-27",
+      "client": {
+        "name": "Equity Bank",
+        "city": "Nairobi",
+        "country": "Kenya",
+        "email": "accounts@equitybank.co.ke"
+      }
+    }
+  ],
+  "meta": {
+    "current_page": 1,
+    "per_page": 10,
+    "total": 26,
+    "last_page": 3,
+    "from": 1,
+    "to": 10
+  },
+  "links": {
+    "first": "/api/invoices?page=1",
+    "prev": null,
+    "next": "/api/invoices?page=2",
+    "last": "/api/invoices?page=3"
+  }
+}
+

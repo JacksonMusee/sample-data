@@ -1,0 +1,168 @@
+{
+  "data": [
+    {
+      "id": 21,
+      "invoice_no": "INV-2025-021",
+      "item": {
+        "product": "Cloud Storage",
+        "description": "100GB cloud storage plan renewal (2025-09-01 – 2026-08-31)",
+        "price": 1500.00,
+        "quantity": 1,
+        "total": 1500.00
+      },
+      "invoice_date": "2025-07-25",
+      "sub_total": 1500.00,
+      "vat_rate": 16,
+      "vat_amount": 240.00,
+      "total_amount": 1740.00,
+      "currency": "KES",
+      "status": "Paid",
+      "due_date": "2025-08-25",
+      "client": {
+        "name": "Eunice Wambui",
+        "city": "Nairobi",
+        "country": "Kenya",
+        "email": "eunice@example.com"
+      }
+    },
+    {
+      "id": 22,
+      "invoice_no": "INV-2025-022",
+      "item": {
+        "product": "ERP Module",
+        "description": "Finance module annual license (2025-09-01 – 2026-08-31)",
+        "price": 1800.00,
+        "quantity": 1,
+        "total": 1800.00
+      },
+      "invoice_date": "2025-07-28",
+      "sub_total": 1800.00,
+      "vat_rate": 16,
+      "vat_amount": 288.00,
+      "total_amount": 2088.00,
+      "currency": "KES",
+      "status": "Pending",
+      "due_date": "2025-08-28",
+      "client": {
+        "name": "Michael Otieno",
+        "city": "Kisumu",
+        "country": "Kenya",
+        "email": "michael@example.com"
+      }
+    },
+    {
+      "id": 23,
+      "invoice_no": "INV-2025-023",
+      "item": {
+        "product": "Domain",
+        "description": "safaritech.org renewal (2025-10-01 – 2026-09-30)",
+        "price": 1200.00,
+        "quantity": 1,
+        "total": 1200.00
+      },
+      "invoice_date": "2025-08-01",
+      "sub_total": 1200.00,
+      "vat_rate": 16,
+      "vat_amount": 192.00,
+      "total_amount": 1392.00,
+      "currency": "KES",
+      "status": "Paid",
+      "due_date": "2025-09-01",
+      "client": {
+        "name": "Samuel Kariuki",
+        "city": "Nakuru",
+        "country": "Kenya",
+        "email": "samuel@example.com"
+      }
+    },
+    {
+      "id": 24,
+      "invoice_no": "INV-2025-024",
+      "item": {
+        "product": "Website Maintenance",
+        "description": "Monthly maintenance retainer (August 2025)",
+        "price": 5000.00,
+        "quantity": 1,
+        "total": 5000.00
+      },
+      "invoice_date": "2025-08-05",
+      "sub_total": 5000.00,
+      "vat_rate": 16,
+      "vat_amount": 800.00,
+      "total_amount": 5800.00,
+      "currency": "KES",
+      "status": "Overdue",
+      "due_date": "2025-09-05",
+      "client": {
+        "name": "Lydia Mutua",
+        "city": "Mombasa",
+        "country": "Kenya",
+        "email": "lydia@example.com"
+      }
+    },
+    {
+      "id": 25,
+      "invoice_no": "INV-2025-025",
+      "item": {
+        "product": "Mobile App",
+        "description": "Custom app maintenance (Q3 2025)",
+        "price": 20000.00,
+        "quantity": 1,
+        "total": 20000.00
+      },
+      "invoice_date": "2025-08-10",
+      "sub_total": 20000.00,
+      "vat_rate": 16,
+      "vat_amount": 3200.00,
+      "total_amount": 23200.00,
+      "currency": "KES",
+      "status": "Pending",
+      "due_date": "2025-09-10",
+      "client": {
+        "name": "Peter Njoroge",
+        "city": "Eldoret",
+        "country": "Kenya",
+        "email": "peter@example.com"
+      }
+    },
+    {
+      "id": 26,
+      "invoice_no": "INV-2025-026",
+      "item": {
+        "product": "IoT Service",
+        "description": "Smart sensors maintenance (annual)",
+        "price": 15000.00,
+        "quantity": 1,
+        "total": 15000.00
+      },
+      "invoice_date": "2025-08-15",
+      "sub_total": 15000.00,
+      "vat_rate": 16,
+      "vat_amount": 2400.00,
+      "total_amount": 17400.00,
+      "currency": "KES",
+      "status": "Paid",
+      "due_date": "2025-09-15",
+      "client": {
+        "name": "Grace Mwikali",
+        "city": "Nairobi",
+        "country": "Kenya",
+        "email": "grace@example.com"
+      }
+    }
+  ],
+  "meta": {
+    "current_page": 3,
+    "from": 21,
+    "to": 26,
+    "per_page": 10,
+    "total": 26,
+    "last_page": 3
+  },
+  "links": {
+    "first": "https://api.example.com/invoices?page=1",
+    "last": "https://api.example.com/invoices?page=3",
+    "prev": "https://api.example.com/invoices?page=2",
+    "next": null
+  }
+}
