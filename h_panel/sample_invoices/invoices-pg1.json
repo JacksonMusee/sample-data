@@ -178,7 +178,7 @@
     {
       "id": 8,
       "invoice_no": "INV-2025-008",
-      "item": [{
+      "items": [{
         "product": "IoT sensors",
         "description": "Smart farming sensors (10 units)",
         "price": 500.00,
