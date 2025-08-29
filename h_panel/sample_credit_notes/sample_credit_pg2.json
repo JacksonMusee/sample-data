@@ -90,10 +90,10 @@
       "to": 20
   },
   "links": {
-    "first": "https://api.example.com/v1/credit-notes?page=1",
-    "last": "https://api.example.com/v1/credit-notes?page=3",
-    "prev": "https://api.example.com/v1/credit-notes?page=1",
-    "next": "https://api.example.com/v1/credit-notes?page=3"
+    "first": "https://raw.githubusercontent.com/JacksonMusee/sample-data/refs/heads/main/h_panel/sample_credit_notes/sample_credit_pg1.json",
+    "last": "https://raw.githubusercontent.com/JacksonMusee/sample-data/refs/heads/main/h_panel/sample_credit_notes/sample_credit_pg3.json",
+    "previous": "https://raw.githubusercontent.com/JacksonMusee/sample-data/refs/heads/main/h_panel/sample_credit_notes/sample_credit_pg1.json",
+    "next": "https://raw.githubusercontent.com/JacksonMusee/sample-data/refs/heads/main/h_panel/sample_credit_notes/sample_credit_pg3.json"
   }
 }
 
