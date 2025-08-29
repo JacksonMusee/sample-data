@@ -116,7 +116,7 @@
       "vat_amount": 3200.00,
       "total_amount": 23200.00,
       "currency": "KES",
-      "status": "Pending",
+      "status": "Expired",
       "due_date": "2025-09-10",
       "client": {
         "name": "Peter Njoroge",
