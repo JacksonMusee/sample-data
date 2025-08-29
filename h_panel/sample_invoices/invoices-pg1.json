@@ -41,7 +41,7 @@
       "vat_amount": 1600.00,
       "total_amount": 11600.00,
       "currency": "KES",
-      "status": "UnPaid",
+      "status": "Unpaid",
       "due_date": "2025-02-04",
       "client": {
         "name": "Pafé Tech Co.",
@@ -141,7 +141,7 @@
       "vat_amount": 200.00,
       "total_amount": 2200.00,
       "currency": "USD",
-      "status": "UnPaid",
+      "status": "Unpaid",
       "due_date": "2025-02-16",
       "client": {
         "name": "Bright Future Org",
@@ -191,7 +191,7 @@
       "vat_amount": 400.00,
       "total_amount": 5400.00,
       "currency": "USD",
-      "status": "UnPaid",
+      "status": "Unpaid",
       "due_date": "2025-02-22",
       "client": {
         "name": "AgriTech Solutions",

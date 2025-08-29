@@ -40,7 +40,7 @@
       "vat_rate": 16,
       "vat_amount": 40000.00,
       "total_amount": 290000.00,
-      "status": "UnPaid",
+      "status": "Unpaid",
       "due_date": "2025-02-20",
       "currency": "USD",
       "client": {
@@ -140,7 +140,7 @@
       "vat_rate": 16,
       "vat_amount": 6400.00,
       "total_amount": 46400.00,
-      "status": "UnPaid",
+      "status": "Unpaid",
       "due_date": "2025-04-15",
       "currency": "KES",
       "client": {
@@ -190,7 +190,7 @@
       "vat_rate": 16,
       "vat_amount": 3840.00,
       "total_amount": 27840.00,
-      "status": "UnPaid",
+      "status": "Unpaid",
       "due_date": "2025-05-15",
       "currency": "KES",
       "client": {
