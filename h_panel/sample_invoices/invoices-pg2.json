@@ -90,7 +90,7 @@
       "vat_rate": 16,
       "vat_amount": 80000.00,
       "total_amount": 580000.00,
-      "status": "partial",
+      "status": "Pending",
       "due_date": "2025-03-24",
       "currency": "GBP",
       "client": {
@@ -215,7 +215,7 @@
       "vat_rate": 16,
       "vat_amount": 14400.00,
       "total_amount": 104400.00,
-      "status": "partial",
+      "status": "Pending",
       "due_date": "2025-05-24",
       "currency": "EUR",
       "client": {
