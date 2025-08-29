@@ -1,0 +1,99 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "credit_note_no": "CN-2025-001",
+      "amount": 2500.00,
+      "currency": "KES",
+      "description": "domain renewal overpayment refund",
+      "date": "2025-08-01"
+    },
+    {
+      "id": 2,
+      "credit_note_no": "CN-2025-002",
+      "amount": 1800.00,
+      "currency": "KES",
+      "description": "deviceq.co.ke hosting downgrade refund",
+      "date": "2025-08-02"
+    },
+    {
+      "id": 3,
+      "credit_note_no": "CN-2025-003",
+      "amount": 3000.00,
+      "currency": "KES",
+      "description": "pafe.co.ke cancellation - pro-rata Refund",
+      "date": "2025-08-03"
+    },
+    {
+      "id": 4,
+      "credit_note_no": "CN-2025-004",
+      "amount": 1200.00,
+      "currency": "KES",
+      "description": "Email hosting refund",
+      "date": "2025-08-04"
+    },
+    {
+      "id": 5,
+      "credit_note_no": "CN-2025-005",
+      "amount": 4500.00,
+      "currency": "KES",
+      "description": "deviceq.co.ke overpayment refund",
+      "date": "2025-08-05"
+    },
+    {
+      "id": 6,
+      "credit_note_no": "CN-2025-006",
+      "amount": 2000.00,
+      "currency": "KES",
+      "description": "SSL cancellation refund",
+      "date": "2025-08-06"
+    },
+    {
+      "id": 7,
+      "credit_note_no": "CN-2025-007",
+      "amount": 3500.00,
+      "currency": "KES",
+      "description": "Overpayment adjustment",
+      "date": "2025-08-07"
+    },
+    {
+      "id": 8,
+      "credit_note_no": "CN-2025-008",
+      "amount": 1700.00,
+      "currency": "KES",
+      "description": "pafe.co.ke downgrade refund",
+      "date": "2025-08-08"
+    },
+    {
+      "id": 9,
+      "credit_note_no": "CN-2025-009",
+      "amount": 2800.00,
+      "currency": "KES",
+      "description": "Email hosting cancellation - pro-rata Refund",
+      "date": "2025-08-09"
+    },
+    {
+      "id": 10,
+      "credit_note_no": "CN-2025-010",
+      "amount": 5000.00,
+      "currency": "KES",
+      "description": "deviceq.co.ke cancellation - pro-rata Refund",
+      "date": "2025-08-10"
+    }
+  ],
+  "meta": {
+    "total": 25,
+    "per_page": 10,
+    "current_page": 1,
+    "last_page": 3,
+    "from": 1,
+    "to": 10
+  },
+  "links": {
+    "first": "https://api.example.com/v1/credit-notes?page=1",
+    "last": "https://api.example.com/v1/credit-notes?page=3",
+    "prev": null,
+    "next": "https://api.example.com/v1/credit-notes?page=2"
+  }
+}
+

@@ -1,0 +1,59 @@
+{
+  "data": [
+    {
+      "id": 21,
+      "credit_note_no": "CN-2025-021",
+      "amount": 2800.00,
+      "currency": "KES",
+      "description": "SSL downgrade refund",
+      "date": "2025-08-21"
+    },
+    {
+      "id": 22,
+      "credit_note_no": "CN-2025-022",
+      "amount": 3600.00,
+      "currency": "KES",
+      "description": "deviceq.co.ke overpayment refund",
+      "date": "2025-08-22"
+    },
+    {
+      "id": 23,
+      "credit_note_no": "CN-2025-023",
+      "amount": 1500.00,
+      "currency": "KES",
+      "description": "Email hosting downgrade refund",
+      "date": "2025-08-23"
+    },
+    {
+      "id": 24,
+      "credit_note_no": "CN-2025-024",
+      "amount": 4200.00,
+      "currency": "KES",
+      "description": "pafe.co.ke cancellation - pro-rata Refund",
+      "date": "2025-08-24"
+    },
+    {
+      "id": 25,
+      "credit_note_no": "CN-2025-025",
+      "amount": 5000.00,
+      "currency": "KES",
+      "description": "deviceq.co.ke cancellation - pro-rata Refund",
+      "date": "2025-08-25"
+    }
+  ],
+  "meta": {
+    "total": 25,
+    "per_page": 10,
+    "current_page": 3,
+    "last_page": 3,
+    "from": 21,
+    "to": 25
+  },
+  "links": {
+    "first": "https://api.example.com/v1/credit-notes?page=1",
+    "last": "https://api.example.com/v1/credit-notes?page=3",
+    "prev": "https://api.example.com/v1/credit-notes?page=2",
+    "next": null
+  }
+}
+
