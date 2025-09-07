@@ -1,0 +1,99 @@
+{
+  "data": [
+    {
+      "id": "txn_2025_001",
+      "wallet_id": "wallet_001",
+      "type": "credit",
+      "amount": 10000.00,
+      "currency": "KES",
+      "description": "Initial wallet funding via Mpesa",
+      "reference": "MPESA-ABC123",
+      "invoice_id": null,
+      "status": "completed",
+      "balance_before": 0.00,
+      "balance_after": 10000.00,
+      "channel": "mpesa",
+      "created_at": "2025-08-01T09:00:00Z",
+      "completed_at": "2025-08-01T09:00:05Z"
+    },
+    {
+      "id": "txn_2025_002",
+      "wallet_id": "wallet_001",
+      "type": "debit",
+      "amount": 3000.00,
+      "currency": "KES",
+      "description": "Auto-debit for invoice INV-2025-001",
+      "reference": "INV-2025-001",
+      "invoice_id": "inv_2025_001",
+      "status": "completed",
+      "balance_before": 10000.00,
+      "balance_after": 7000.00,
+      "channel": "wallet-auto-debit",
+      "created_at": "2025-08-02T10:00:00Z",
+      "completed_at": "2025-08-02T10:00:05Z"
+    },
+    {
+      "id": "txn_2025_003",
+      "wallet_id": "wallet_001",
+      "type": "debit",
+      "amount": 1200.00,
+      "currency": "KES",
+      "description": "Payment for invoice INV-2025-002",
+      "reference": "INV-2025-002",
+      "invoice_id": "inv_2025_002",
+      "status": "completed",
+      "balance_before": 7000.00,
+      "balance_after": 5800.00,
+      "channel": "wallet-auto-debit",
+      "created_at": "2025-08-04T08:30:00Z",
+      "completed_at": "2025-08-04T08:30:05Z"
+    },
+    {
+      "id": "txn_2025_004",
+      "wallet_id": "wallet_001",
+      "type": "credit",
+      "amount": 5000.00,
+      "currency": "KES",
+      "description": "Top-up via bank transfer",
+      "reference": "BANK-TRX-8821",
+      "invoice_id": null,
+      "status": "completed",
+      "balance_before": 5800.00,
+      "balance_after": 10800.00,
+      "channel": "bank-transfer",
+      "created_at": "2025-08-05T12:15:00Z",
+      "completed_at": "2025-08-05T12:15:20Z"
+    },
+    {
+      "id": "txn_2025_005",
+      "wallet_id": "wallet_001",
+      "type": "debit",
+      "amount": 2500.00,
+      "currency": "KES",
+      "description": "Invoice INV-2025-003 payment",
+      "reference": "INV-2025-003",
+      "invoice_id": "inv_2025_003",
+      "status": "completed",
+      "balance_before": 10800.00,
+      "balance_after": 8300.00,
+      "channel": "wallet-auto-debit",
+      "created_at": "2025-08-06T09:45:00Z",
+      "completed_at": "2025-08-06T09:45:10Z"
+    }
+  ],
+  "meta": {
+    "current_page": 1,
+    "from": 1,
+    "to": 5,
+    "per_page": 5,
+    "total": 15,
+    "last_page": 3
+  },
+  "links": {
+    "first": "/api/wallet/transactions?page=1",
+    "last": "/api/wallet/transactions?page=3",
+    "prev": null,
+    "next": "/api/wallet/transactions?page=2"
+  }
+}
+
