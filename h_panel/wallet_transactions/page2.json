@@ -90,9 +90,9 @@
     "last_page": 3
   },
   "links": {
-    "first": "/api/wallet/transactions?page=1",
-    "last": "/api/wallet/transactions?page=3",
-    "prev": "/api/wallet/transactions?page=1",
-    "next": "/api/wallet/transactions?page=3"
+    "first": "https://github.com/JacksonMusee/sample-data/blob/main/h_panel/wallet_transactions/page1.json",
+    "last": "https://github.com/JacksonMusee/sample-data/blob/main/h_panel/wallet_transactions/page3.json",
+    "prev": "https://github.com/JacksonMusee/sample-data/blob/main/h_panel/wallet_transactions/page1.json",
+    "next": "https://github.com/JacksonMusee/sample-data/blob/main/h_panel/wallet_transactions/page3.json"
   }
 }
