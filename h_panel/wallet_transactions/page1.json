@@ -6,7 +6,7 @@
       "type": "credit",
       "amount": 10000.00,
       "currency": "KES",
-      "description": "Initial wallet funding via Mpesa. Initial wallet funding via Mpesa",
+      "description": "Initial wallet funding via Mpesa",
       "reference": "MPESA-ABC123",
       "invoice_id": null,
       "status": "completed",
