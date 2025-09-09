@@ -90,10 +90,10 @@
     "last_page": 3
   },
   "links": {
-    "first": "https://github.com/JacksonMusee/sample-data/blob/main/h_panel/wallet_transactions/page1.json",
-    "last": "https://github.com/JacksonMusee/sample-data/blob/main/h_panel/wallet_transactions/page3.json",
+    "first": "https://raw.githubusercontent.com/JacksonMusee/sample-data/refs/heads/main/h_panel/wallet_transactions/page1.json",
+    "last": "https://raw.githubusercontent.com/JacksonMusee/sample-data/refs/heads/main/h_panel/wallet_transactions/page3.json",
     "previous": null,
-    "next": "https://github.com/JacksonMusee/sample-data/blob/main/h_panel/wallet_transactions/page2.json"
+    "next": "https://raw.githubusercontent.com/JacksonMusee/sample-data/refs/heads/main/h_panel/wallet_transactions/page2.json"
   }
 }
 
