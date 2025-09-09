@@ -1,6 +1,6 @@
 {
   "id": 1,
-  "user_id": "user_123",
+  "user_id": 123,
   "balance": 2500.00,
   "currency": "KES",
   "status": "active",
